@@ -1,0 +1,11 @@
+import random 
+
+days_of_the_week = ['sunday', 'monday', 'tuesday','wednesday', 'thursday','friday','saturday']
+
+day = random.choice(days_of_the_week)
+
+print(day)
+
+#Eric Sarmiento
+#8/8/2024
+#This is problem 3 and this is program randomly pick a day of the week
