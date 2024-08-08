@@ -1,0 +1,8 @@
+import random
+
+odd_int = random.randrange(1, 100, 2)
+print(odd_int)
+
+#Eric Sarmiento
+#8/8/2024
+#problem 2 and this promgram pick a odd number from 1 to 100
