@@ -1,0 +1,12 @@
+import random
+
+random_list = []
+
+for i in range (0,10):
+    random_list.append(random.randint(25,35))
+print(random_list)
+
+#Eric Sarmiento
+#8/8/2024
+#Problem 1 and in this program randomly picks 10 between 25 and 35
+#
