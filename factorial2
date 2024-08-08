@@ -1,0 +1,10 @@
+import math
+
+n = int(input('Enter an integer:'))
+
+print('factorial of {} using inbuilt function:{}'.format(n, math.factorial(n)))
+
+#Eric Sarmiento
+#8/8/2024
+#Problem 6 this program calculated a value using the factorial function
+#
