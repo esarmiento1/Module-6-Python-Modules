@@ -1,0 +1,10 @@
+Import math
+
+pi=22/7
+radian = float(input("Input radians: "))
+degree = radian*(180/pi)
+print(degree)
+
+#Eric Sarmiento
+#8/8/2024
+#Problem 4 , this program coverts radians to degrees.
