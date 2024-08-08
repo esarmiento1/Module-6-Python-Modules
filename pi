@@ -1,0 +1,19 @@
+import math
+
+def calculate_pi_approximation(n):
+    approximation = 0
+    for i in range(n):
+        approximation += (-1) ** i / (2 * i + 1)
+    return 4 * approximation
+
+iterations = 1000000
+
+pi_approximation = calculate_pi_approximation(iterations)
+
+print(f"Approximation of pi using Leibniz formula: {pi_approximation}")
+print(f"Value of pi from the math module: {math.pi}")
+
+#Eric Sarmiento
+#8/8/2024
+#Problem 4 , this program coverts radians to degrees.
+#
